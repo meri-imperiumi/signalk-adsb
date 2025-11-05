@@ -15,5 +15,8 @@ This plugin reads ADS-B aircraft data received using the [dump1090 software](htt
 
 ## Changes
 
+* 1.0.1 (2025-11-05)
+  - Removed whitespace from flight numbers
+  - Added transponder squawk
 * 1.0.0 (2025-11-05)
   - Initial release

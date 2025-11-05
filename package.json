@@ -1,6 +1,6 @@
 {
   "name": "@meri-imperiumi/signalk-adsb",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Receive aircraft via ADS-B into Signal K",
   "main": "plugin/index.js",
   "scripts": {
