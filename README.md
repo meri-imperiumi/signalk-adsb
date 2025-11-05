@@ -9,3 +9,6 @@ This plugin reads ADS-B aircraft data received using the [dump1090 software](htt
 * Install and run dump1090 with the `-net` option
 * Install and enable this plugin
   - If dump1090 is running on a different computer than Signal K, configure the IP address used in the plugin accordingly
+* (optional) Enable display of aircraft in Freeboard
+
+![Aircraft approaching SKCG as seen on Freeboard](https://github.com/meri-imperiumi/signalk-adsb/raw/main/doc/freeboard.png)
