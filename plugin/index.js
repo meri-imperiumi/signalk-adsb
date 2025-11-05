@@ -43,7 +43,7 @@ module.exports = (app) => {
                 value: adsb.speed * 0.5144444, // Convert from kt to m/s
               },
               {
-                path: 'navigation.courceOverGround',
+                path: 'navigation.courseOverGroundTrue',
                 value: adsb.track * (Math.PI / 180),
               },
               {
