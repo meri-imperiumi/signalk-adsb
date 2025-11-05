@@ -1,0 +1,31 @@
+{
+  "name": "@meri-imperiumi/signalk-adsb",
+  "version": "1.0.0",
+  "description": "Receive aircraft via ADS-B into Signal K",
+  "main": "plugin/index.js",
+  "scripts": {
+    "test": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/meri-imperiumi/signalk-adsb.git"
+  },
+  "keywords": [
+    "signalk-node-server-plugin",
+    "signalk-category-ais"
+  ],
+  "author": "Henri Bergius <henri.bergius@iki.fi>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/meri-imperiumi/signalk-adsb/issues"
+  },
+  "homepage": "https://github.com/meri-imperiumi/signalk-adsb#readme",
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.32.0"
+  }
+}
