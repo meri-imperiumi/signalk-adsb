@@ -52,7 +52,11 @@ module.exports = (app) => {
               },
               {
                 path: 'communication.callsignVhf',
-                value: adsb.flight, // Convert from kt to m/s
+                value: adsb.flight,
+              },
+              {
+                path: 'communication.squawk',
+                value: adsb.squawk,
               },
             ];
             app.handleMessage('signalk-adsb', {
