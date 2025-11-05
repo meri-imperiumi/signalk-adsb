@@ -27,7 +27,7 @@ module.exports = (app) => {
               {
                 path: '',
                 value: {
-                  name: adsb.flight || adsb.hex,
+                  name: (adsb.flight || adsb.hex).replace(/\s/g, ''),
                 },
               },
               {
@@ -52,7 +52,7 @@ module.exports = (app) => {
               },
               {
                 path: 'communication.callsignVhf',
-                value: adsb.flight,
+                value: adsb.flight.replace(/\s/g, ''),
               },
               {
                 path: 'communication.squawk',
