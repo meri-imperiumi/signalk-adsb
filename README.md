@@ -12,3 +12,8 @@ This plugin reads ADS-B aircraft data received using the [dump1090 software](htt
 * (optional) Enable display of aircraft in Freeboard
 
 ![Aircraft approaching SKCG as seen on Freeboard](https://github.com/meri-imperiumi/signalk-adsb/raw/main/doc/freeboard.png)
+
+## Changes
+
+* 1.0.0 (2025-11-05)
+  - Initial release
