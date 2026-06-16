@@ -12,7 +12,7 @@
   },
   "keywords": [
     "signalk-node-server-plugin",
-    "signalk-category-ais"
+    "signalk-category-hardware"
   ],
   "author": "Henri Bergius <henri.bergius@iki.fi>",
   "license": "MIT",
@@ -27,5 +27,12 @@
     "eslint": "^8.57.1",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.32.0"
+  },
+  "signalk": {
+    "appIcon": "./doc/appicon.png",
+    "displayName": "ADS-B Flight Tracking",
+    "screenshots": [
+      "./doc/freeboard.png"
+    ]
   }
 }
