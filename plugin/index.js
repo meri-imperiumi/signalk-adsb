@@ -79,7 +79,7 @@ module.exports = (app) => {
           app.debug(err);
           app.setPluginError(err.message);
         });
-    }, settings.interval * 1000);
+    }, settings.interval ? settings.interval * 1000 : 10000);
   };
 
   plugin.stop = () => {

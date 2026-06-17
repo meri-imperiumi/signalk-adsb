@@ -4,7 +4,8 @@
   "description": "Receive aircraft via ADS-B into Signal K",
   "main": "plugin/index.js",
   "scripts": {
-    "test": "eslint ."
+    "pretest": "eslint .",
+    "test": "node --test"
   },
   "repository": {
     "type": "git",
